@@ -14,7 +14,7 @@ func main(){
 
 
 
-	formattedhello.GetHelloMessage(name)
+	fmt.Println(formattedhello.GetHelloMessage(name))
 
 	fmt.Println(" x+y =" , basicmath.Add(x,y) )
 

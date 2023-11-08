@@ -1,9 +1,7 @@
 package formattedhello
 
-import "fmt"
  
-func GetHelloMessage(firstName string){
+func GetHelloMessage(firstName string) string {
 	
-	fmt.Print("Hello ," +firstName+"\n")
-
+	return "Hello:" + firstName 
 }
