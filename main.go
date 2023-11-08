@@ -22,6 +22,6 @@ func main(){
 
 	fmt.Println(" x*y =" , basicmath.Multiply(x,y) )
 
-	fmt.Println(" x/+y =" , basicmath.Divide(x,y) )
+	fmt.Println(" x/y =" , basicmath.Divide(x,y) )
 	
 }
