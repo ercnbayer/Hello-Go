@@ -18,10 +18,10 @@ func main(){
 
 	fmt.Println(" x+y =" , basicmath.Add(x,y) )
 
-	fmt.Println(" x+y =" , basicmath.Substract(x,y) )
+	fmt.Println(" x-y =" , basicmath.Substract(x,y) )
 
-	fmt.Println(" x+y =" , basicmath.Multiply(x,y) )
+	fmt.Println(" x*y =" , basicmath.Multiply(x,y) )
 
-	fmt.Println(" x+y =" , basicmath.Divide(x,y) )
+	fmt.Println(" x/+y =" , basicmath.Divide(x,y) )
 	
 }
